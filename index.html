@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Editing Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- নেভিগেশন বার -->
+  <header>
+    <div class="logo">EditCraft</div>
+    <nav>
+      <ul>
+        <li><a href="#" id="nav-home">হোম</a></li>
+        <li><a href="#" id="nav-services">সার্ভিস</a></li>
+        <li><a href="#" id="nav-contact">যোগাযোগ</a></li>
+      </ul>
+    </nav>
+    <div class="right-nav">
+      <!-- ল্যাঙ্গুয়েজ সুইচার -->
+      <select id="lang-switcher" onchange="changeLanguage()">
+        <option value="bn">বাংলা</option>
+        <option value="en">English</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- হিরো সেকশন -->
+  <section class="hero">
+    <h1 id="hero-title">সেরা ভিডিও এডিটর খুঁজুন সহজেই</h1>
+    <p id="hero-desc">ইউটিউব শর্টস, রিলস কিংবা ডাবিং এর জন্য প্রফেশনাল এডিটরদের সাথে যুক্ত হোন।</p>
+    
+    <div class="account-buttons">
+      <a href="#customer" class="btn btn-customer" id="btn-customer">কাস্টমার অ্যাকাউন্ট</a>
+      <a href="#editor" class="btn btn-editor" id="btn-editor">এডিটর অ্যাকাউন্ট</a>
+    </div>
+  </section>
+
+  <!-- সার্ভিস সেকশন -->
+  <section class="services">
+    <h2 id="service-title">আমাদের সেবাসমূহ</h2>
+    <div class="service-grid">
+      <div class="card">
+        <h3>YouTube Shorts & Reels</h3>
+        <p id="s1-desc">আকর্ষণীয় শর্ট ভিডিও এডিটিং ও ক্যাপশন সার্ভিস।</p>
+      </div>
+      <div class="card">
+        <h3>Dubbing & Voiceover</h3>
+        <p id="s2-desc">যেকোনো ভাষার নিখুঁত ডাবিং এবং সাউন্ড এডিটিং।</p>
+      </div>
+      <div class="card">
+        <h3>Full Video Editing</h3>
+        <p id="s3-desc">ইউটিউব ও প্রফেশনাল ভিডিওর ফুল প্রসেসিং।</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
